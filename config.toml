@@ -1,0 +1,211 @@
+# Main config file for icon theme.
+theme = "hugo-icon"
+baseURL = "https://www.soytuhelper.es/"
+languageCode = "es-ES"
+title = "#soytuhelper"
+
+# Metadata
+[params]
+  author = "Inés Fernández"
+  description = "Soy tu helper"
+
+# Hero section (from here on is for icon theme)
+[params.hero]
+  img = "images/retrato7c.png"
+  title = ""
+  description = ""
+
+# Navigation section
+[params.nav]
+  mission = "#soytuhelper"
+  services = "Servicios"
+  team = "Sobre mi"
+  contact = "Contacta"
+  # Include logo instead if HOME:
+  # logo = "path/to/logo"
+
+# Mission section
+[params.mission]
+  enable = true
+
+  [params.mission.images]
+    enable = true
+
+    [[params.mission.images.list]]
+      img = "images/mision-1.png"
+    # [[params.mission.images.list]]
+    #   img = "images/img_2.jpg"
+    # [[params.mission.images.list]]
+    #   img = "images/img_1.jpg"
+    # [[params.mission.images.list]]
+    #   img = "images/img_4.jpg"
+
+  [[params.mission.item]]
+    weight = 1
+    name = "#soytuhelper"
+    title = "#soytuhelper"
+    subtitle = "Es un servicio creado para pymes, autónomos y emprendedores."
+    description = """Me encargo de realizar aquellas tareas que necesitas delegar, de forma remota y totalmente eficaz desde mi oficina, para que puedas centrarte en los procesos en los que realmente eres productivo, con el objetivo de que tu día a día sea más fácil.
+    \nSoy leal y apasionada por mi trabajo, dos cualidades que me definen, y que pongo a tu servicio para encargarme de tareas que te convendría dejar en buenas manos, si quieres que tu empresa crezca, o si te encuentras con un pico de carga de trabajo puntual que necesites resolver.
+    \nTe facilito ayuda, sin necesidad de que me incluyas en tu plantilla  como personal contratado, pero obteniendo todos los beneficios que el trabajo en equipo aporta. La confianza y la confidencialidad, nos permitirán crecer junt@s.
+    \nEstas son algunas de las tareas en las puedo echarte una mano, pero sólo algunas.
+    \nÉchales un vistazo :) y consúltame.
+    """
+
+  # [[params.mission.item]]
+  #   weight = 2
+  #   name = "analysis"
+  #   title = "Resources"
+  #   subtitle = "Quam quasi illum expedita dicta nemo fugit reprehenderit similique! Corporis praesentium magnam sequi."
+  #   description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla explicabo, molestiae eaque fugiat dolores est esse, doloremque placeat assumenda corrupti officia dolorum. Sunt saepe ut, explicabo consectetur, nostrum illo est.</p><ul class='checked'><li>Free HTML5 Templates</li><li>Free Bootstrap Templates</li><li>Free HTML5 Bootstrap Templates</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+
+  # [[params.mission.item]]
+  #   weight = 3
+  #   name = "strategy"
+  #   title = "Strategy"
+  #   subtitle = "Magnam iste obcaecati illo laboriosam amet. Dignissimos sed quis voluptatum corporis adipisci amet."
+  #   description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolore illum expedita placeat debitis, dignissimos obcaecati et modi. Possimus id dicta consequuntur veritatis, reiciendis at expedita voluptate sint distinctio eligendi!</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+
+# Services section
+[params.services]
+  enable = true
+  video = false
+  vidlink = ""
+  title = "Mis Servicios"
+  description = ""
+
+  [[params.services.item]]
+    icon = "icon-notebook"
+    title = ""
+    description = "Gestiono tu agenda y actualizo tus contactos."
+
+  [[params.services.item]]
+    icon = "icon-docs"
+    title = ""
+    description = "Elaboro documentos según tus indicaciones y necesidades."
+
+  [[params.services.item]]
+    icon = "icon-screen-smartphone"
+    title = ""
+    description = "Realizo tus llamadas y te ayudo a mantener tu servicio de Atención al cliente."
+
+  [[params.services.item]]
+    icon = "icon-envelope"
+    title = ""
+    description = "Contesto tus emails o realizo mailings."
+
+  [[params.services.item]]
+    icon = "icon-people"
+    title = ""
+    description = "Gestiono tus redes sociales."
+
+  [[params.services.item]]
+    icon = "icon-folder"
+    title = ""
+    description = "Organizo tu archivo digital o en papel."
+
+  [[params.services.item]]
+    icon = "icon-check"
+    title = ""
+    description = "Actualizo tus bases de datos y chequeo tus listados."
+
+  [[params.services.item]]
+    icon = "icon-layers"
+    title = ""
+    description = "Filtro contenidos y busco datos."
+
+  [[params.services.item]]
+    icon = "icon-note"
+    title = ""
+    description = "Hago transcripciones de tus audios o notas."
+
+# Work section
+[params.work]
+  enable = false
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_1.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_2.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_3.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_2.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_3.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_2.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_3.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_4.jpg"
+
+# Team section
+[params.team]
+  enable = true
+  title = "Me llamo Inés"
+  description = ""
+
+  [[params.team.item]]
+    name = ""
+    position = ""
+    description = """Supongo que como muchas personas tengo varias pasiones en la vida, una de ellas es que me encanta conocer gente interesante como tú y entusiasmarme con tu proyecto.
+    \nTambién soy emprendedora, así que sabes lo largo que se hace el camino a veces, y qué difícil es salir de atolladeros. Por eso, reflexionando y echando una mirada hacia atrás, he descubierto desde que decidí iniciar mi nueva vida profesional sola, allá por septiembre del 2016, que con buenos aliados se puede llegar al fin del mundo (¡y que nunca me falten¡).\r
+    \nGracias a mi esfuerzo de cada día, y a personas especiales que me he encontrado en el transcurso de estos casi dos años, puedo ofrecerte mi ayuda ahora como asistente virtual. Por mi propia experiencia sé, que tienes tareas que no te gusta hacer o simplemente, no estás dispuest@ a perder tiempo para averiguar cómo hacerlas.
+    \n¿Y qué me dices de tu banco emocional?  Una de mis motivaciones para comenzar mi propio proyecto fue, poder disponer de más tiempo para llevar a mi hijo de 7 años al parque los viernes por la tarde.  Fue mágica esa primera vez.
+    \nAsí que si estás buscando #turatitodeparque, tal vez pueda ayudarte con ello,  contacta conmigo y charlemos, empecemos por averiguar si ambas partes estamos en sintonía, y estoy segura de que todo lo demás llegará.
+    \nMuchas gracias por leerme ;)"""
+    img = "images/retrato5b.png"
+    twitter = "https://twitter.com/inesferpernas"
+    linkedin = "#"
+
+  # [[params.team.item]]
+  #   name = "Jason Doe"
+  #   position = "Chief haranguer"
+  #   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  #   img = "images/person3.jpg"
+  #   facebook = "#"
+  #   twitter = "#"
+  #   dribbble = "#"
+  #   instagram = "#"
+  #   github = "#"
+
+# Contact section
+[params.contact]
+  enable = true
+  title = "Contacta"
+  message = """<div class=\"icon\">
+  <i class=icon-envelope></i><a href="mailto:hola@soytuhelper.es" target="_top"> hola@soytuhelper.es</a><br>
+  <i class=icon-phone></i><a href="tel:+34625120475"> +34 625 120 475</a><br>
+  <i class=icon-location-pin></i> Michelena, 11, 3º, 36002, Pontevedra, España</div>"""
+
+# Footer section
+# Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
+[params.footer]
+  enable = true
+  note = "<p><small>&copy; 2016 Free HTML5 Template. All Rights Reserved. <br> Designed by <a href='http://freehtml5.co/' target='_blank'>FreeHTML5.co</a> Demo Images: <a href='http://pexels.com/' target='_blank'>Pexels</a><br>Hugo port by <a href='https://github.com/SteveLane/' target='_blank'>SteveLane</a><br>2018 Modify by <a href='https://twitter.com/jfpernas/' target='_blank'>Joaquín Fernández</a></small></p>"
+  twitter = "https://twitter.com/inesferpernas"
+# linkedin = "#"  
