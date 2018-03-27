@@ -33,12 +33,6 @@ title = "#soytuhelper"
 
     [[params.mission.images.list]]
       img = "images/mision-1.png"
-    # [[params.mission.images.list]]
-    #   img = "images/img_2.jpg"
-    # [[params.mission.images.list]]
-    #   img = "images/img_1.jpg"
-    # [[params.mission.images.list]]
-    #   img = "images/img_4.jpg"
 
   [[params.mission.item]]
     weight = 1
@@ -51,20 +45,6 @@ title = "#soytuhelper"
     \nEstas son algunas de las tareas en las puedo echarte una mano, pero sólo algunas.
     \nÉchales un vistazo :) y consúltame.
     """
-
-  # [[params.mission.item]]
-  #   weight = 2
-  #   name = "analysis"
-  #   title = "Resources"
-  #   subtitle = "Quam quasi illum expedita dicta nemo fugit reprehenderit similique! Corporis praesentium magnam sequi."
-  #   description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla explicabo, molestiae eaque fugiat dolores est esse, doloremque placeat assumenda corrupti officia dolorum. Sunt saepe ut, explicabo consectetur, nostrum illo est.</p><ul class='checked'><li>Free HTML5 Templates</li><li>Free Bootstrap Templates</li><li>Free HTML5 Bootstrap Templates</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
-
-  # [[params.mission.item]]
-  #   weight = 3
-  #   name = "strategy"
-  #   title = "Strategy"
-  #   subtitle = "Magnam iste obcaecati illo laboriosam amet. Dignissimos sed quis voluptatum corporis adipisci amet."
-  #   description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolore illum expedita placeat debitis, dignissimos obcaecati et modi. Possimus id dicta consequuntur veritatis, reiciendis at expedita voluptate sint distinctio eligendi!</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
 
 # Services section
 [params.services]
@@ -180,18 +160,7 @@ title = "#soytuhelper"
     \nMuchas gracias por leerme ;)"""
     img = "images/retrato5b.png"
     twitter = "https://twitter.com/inesferpernas"
-    linkedin = "#"
-
-  # [[params.team.item]]
-  #   name = "Jason Doe"
-  #   position = "Chief haranguer"
-  #   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-  #   img = "images/person3.jpg"
-  #   facebook = "#"
-  #   twitter = "#"
-  #   dribbble = "#"
-  #   instagram = "#"
-  #   github = "#"
+    linkedin = "https://www.linkedin.com/in/inesfernandezp/"
 
 # Contact section
 [params.contact]
@@ -208,4 +177,4 @@ title = "#soytuhelper"
   enable = true
   note = "<p><small>&copy; 2016 Free HTML5 Template. All Rights Reserved. <br> Designed by <a href='http://freehtml5.co/' target='_blank'>FreeHTML5.co</a> Demo Images: <a href='http://pexels.com/' target='_blank'>Pexels</a><br>Hugo port by <a href='https://github.com/SteveLane/' target='_blank'>SteveLane</a><br>2018 Modify by <a href='https://twitter.com/jfpernas/' target='_blank'>Joaquín Fernández</a></small></p>"
   twitter = "https://twitter.com/inesferpernas"
-# linkedin = "#"  
+  linkedin = "https://www.linkedin.com/in/inesfernandezp/"  
